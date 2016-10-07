@@ -24,3 +24,7 @@ dataUS = dataUS.iloc[:,0:3]                         # Select the first 3 columns
 dataUS
 
 data[data.loc[:,'Country'] == 'United States']      # Filter by ColumnName
+
+data.columns
+
+data.loc[:,['Year','Country','Average income per tax unit']]
